@@ -2,7 +2,7 @@
 
 Example Repository to learn about the issue of database deadlocks.
 
-For more information read [the blogpost](https://medium.com/@paul.klingelhuber)
+For more information read [the blogpost](https://medium.com/@paul.klingelhuber/e6430d8a8d30).
 
 Run DB Container
 ```
@@ -47,7 +47,8 @@ Simplified thread-dump stacktrace taken while the issue is currently happening:
         at java.lang.Thread.run(java.base@12.0.1/Thread.java:835)
 ```
 
-debugging tools mariadb:
+
+Debugging tools/queries for mariadb:
 
 ```
 SHOW ENGINE INNODB STATUS;
